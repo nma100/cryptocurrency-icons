@@ -925,6 +925,11 @@
 		"color": "#efb914"
 	},
 	{
+		"symbol": "GENERIC-ALT",
+		"name": "generic-alt",
+		"color": "#000000"
+	},
+	{
 		"symbol": "GIN",
 		"name": "GINcoin",
 		"color": "#008dde"
@@ -2223,6 +2228,11 @@
 		"symbol": "WBTC",
 		"name": "Wrapped Bitcoin",
 		"color": "#201a2d"
+	},
+	{
+		"symbol": "WETH",
+		"name": "WETH",
+		"color": "#627eea"
 	},
 	{
 		"symbol": "WGR",
