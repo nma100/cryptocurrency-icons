@@ -925,6 +925,36 @@
 		"color": "#efb914"
 	},
 	{
+		"symbol": "GENERIC-0",
+		"name": "GENERIC-0",
+		"color": "#000000"
+	},
+	{
+		"symbol": "GENERIC-1",
+		"name": "GENERIC-1",
+		"color": "#000000"
+	},
+	{
+		"symbol": "GENERIC-2",
+		"name": "GENERIC-2",
+		"color": "#000000"
+	},
+	{
+		"symbol": "GENERIC-3",
+		"name": "generic-3",
+		"color": "#000000"
+	},
+	{
+		"symbol": "GENERIC-4",
+		"name": "generic-4",
+		"color": "#000000"
+	},
+	{
+		"symbol": "GENERIC-5",
+		"name": "generic-5",
+		"color": "#000000"
+	},
+	{
 		"symbol": "GENERIC-ALT",
 		"name": "GENERIC-ALT",
 		"color": "#000000"
@@ -2248,6 +2278,11 @@
 		"symbol": "WINGS",
 		"name": "Wings",
 		"color": "#0dc9f7"
+	},
+	{
+		"symbol": "WMATIC",
+		"name": "WMATIC",
+		"color": "#6f41d8"
 	},
 	{
 		"symbol": "WPR",

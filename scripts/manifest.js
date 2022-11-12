@@ -112,15 +112,15 @@ const icons = manifest.map(icon => {
 	const svgPath = path.resolve(__dirname, '../svg/color/', filename);
 	const svg = fs.readFileSync(svgPath, 'utf8');
 	const fillColor = getColors(svg).fills[0];
-
-	if (!fillColor) {
+	
+	/*if (!fillColor) {
 		throw new Error(`Couldn't get color for \`${id}\``);
-	}
+	}*/
 
 	return {
 		symbol: id.toUpperCase(),
 		name: overrides.get(id) || coins.get(id, 'name') || id,
-		color: fillColor.hex().toLowerCase()
+		color: fillColor ? fillColor.hex().toLowerCase() : '#000000'
 	};
 });
 
